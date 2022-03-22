@@ -40,3 +40,18 @@ For example: deepCount([1, 2, 3]); //>>>>> 3
 deepCount(["x", "y", ["z"]]); //>>>>> 4
 deepCount([1, 2, [3, 4, [5]]]); //>>>>> 7
 The input will always be an array._
+
+```javascript
+function deepCount(a) {
+  let count = 0;
+  for (let i = 0; i < a.length; i++) {
+    if (Array.isArray(a[i]) == false) {
+      count += 1;
+    } else {
+      count += 1;
+      count += deepCount(a[i]);
+    }
+  }
+  return count;
+}
+```
