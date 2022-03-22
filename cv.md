@@ -55,3 +55,12 @@ function deepCount(a) {
   return count;
 }
 ```
+
+## Education and courses
+
+- **Belarusian State University of Transport**, Faculty of Electrical Engineering
+
+### **Courses:**
+
+- JavaScript/Front-end PreSchool [certificate](./files/gszimt9r.pdf)
+- learn.javascript.ru in process...
