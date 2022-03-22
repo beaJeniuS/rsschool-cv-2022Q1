@@ -62,10 +62,10 @@ function deepCount(a) {
 
 ### **Courses:**
 
-- JavaScript/Front-end PreSchool
+- JavaScript/Front-end PreSchool - [Certificate](/files/gszimt9r.pdf)
 - learn.javascript.ru in process...
 
 ## Languages
 
 - Russian - native
-- English
+- English - [Certificate](/files/ef_set_certificate.pdf)
