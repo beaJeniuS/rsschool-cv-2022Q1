@@ -198,45 +198,100 @@
           <main class="content__main">
             <div class="content__column">
               <section class="content__item item">
-                <h1 class="item__mainheader">Bondarenko Evgeny</h1>
-                <h2 class="item__header">Front-end developer student</h2>
+                <div class="item__row">
+                  <h1 class="item__mainheader">Bondarenko Evgeny</h1>
+                  <h2 class="item__header">Front-end developer student</h2>
+                </div>
               </section> 
               <section id="aboutMe" class="content__item item">
-                <h2 class="item__header">About Me</h2>
-                <p class="item__text">I am working as an automation engineer in petrochemical industry.
-                  My experience in programming is outside the field of web development and programming.
-                  Languages I know are not applicable here, except, I think, SQL only. Recently I
-                  considered to try something new and started this course. My experience in web
-                  development is too low until but I am very interested in this activity. I hope this
-                  course with its difficult and interesting tasks will help me understand if I can work this way.</p>
+                <div class="item__row">
+                  <h2 class="item__header">About Me</h2>
+                  <p class="item__text">I am working as an automation engineer in petrochemical industry.
+                    My experience in programming is outside the field of web development and programming.
+                    Languages I know are not applicable here, except, I think, SQL only. Recently I
+                    considered to try something new and started this course. My experience in web
+                    development is too low until but I am very interested in this activity. I hope this
+                    course with its difficult and interesting tasks will help me understand if I can work this way.</p>
+                </div>
               </section>
               <section id="education" class="content__item item">
-                <h2 class="item__header">Education</h2>
-                <p class="item__text">Belarusian State University of Transport</p>
-                <p class="item__textsmall">- Faculty of Electrical Engineering</p>
+                <div class="item__row">
+                  <h2 class="item__header">Education</h2>
+                  <p class="item__text">Belarusian State University of Transport</p>
+                  <p class="item__textsmall">- Faculty of Electrical Engineering</p>
+                </div>
               </section>
               <section id="code" class="content__item item">
-                <h2 class="item__header">Code example</h2>
-                <p class="item__text">
-                  <a class="item__link" href="https://www.codewars.com/kata/596f72bbe7cd7296d1000029" target="_blank">Array Deep Count from CODEWARS: (&gt;&gt;)</a>
-                </p>
-                <pre class="item__text preform-text">
-                  <code class="preform-text__code">
-                    <span class="preform-text__js-keyword">function</span> <span class="preform-text__js-function">deepCount</span><span class="preform-text__js-punctuation">(</span>a<span class="preform-text__js-punctuation">){</span>
-                      <span class="preform-text__js-keyword">let</span> count <span class="preform-text__js-punctuation">=</span> <span class="preform-text__js-number">0</span><span class="preform-text__js-punctuation">;</span>
-                    <span class="preform-text__js-keyword">for</span><span class="preform-text__js-punctuation">(</span><span class="preform-text__js-keyword">let</span> i<span class="preform-text__js-number">=0</span><span class="preform-text__js-punctuation">;</span>i<span class="preform-text__js-number">&lt;</span>a.<span class="preform-text__js-number">length</span><span class="preform-text__js-punctuation">;</span>i<span class="preform-text__js-number">++</span><span class="preform-text__js-punctuation">) {</span>
-                      <span class="preform-text__js-keyword">if</span><span class="preform-text__js-punctuation">(</span>Array.<span class="preform-text__js-function">isArray</span><span class="preform-text__js-punctuation">(</span>a[i]<span class="preform-text__js-punctuation">)</span><span class="preform-text__js-number">==false</span><span class="preform-text__js-punctuation">) {</span>
-                          count <span class="preform-text__js-number">+= 1</span><span class="preform-text__js-punctuation">;}</span>
-                      <span class="preform-text__js-keyword">else</span> <span class="preform-text__js-punctuation">{</span>
-                          count <span class="preform-text__js-number">+= 1</span><span class="preform-text__js-punctuation">;</span>
-                          count <span class="preform-text__js-number">+=</span> <span class="preform-text__js-function">deepCount</span><span class="preform-text__js-punctuation">(</span>a[i]<span class="preform-text__js-punctuation">);}}</span>
-                      <span class="preform-text__js-keyword">return</span> count<span class="preform-text__js-punctuation">;}</span>
-                  </code>
-                </pre>
+                <div class="item__row">
+                  <h2 class="item__header">Code example</h2>
+                  <p class="item__text">
+                    <a class="item__link" href="https://www.codewars.com/kata/596f72bbe7cd7296d1000029" target="_blank">Array Deep Count
+                      from CODEWARS: (&gt;&gt;)</a>
+                  </p>
+                  <pre class="item__text preform-text">
+                    <code class="preform-text__code">
+                      <span class="preform-text__js-keyword">function</span> <span class="preform-text__js-function">deepCount</span><span class="preform-text__js-punctuation">(</span>a<span class="preform-text__js-punctuation">){</span>
+                        <span class="preform-text__js-keyword">let</span> count <span class="preform-text__js-punctuation">=</span> <span class="preform-text__js-number">0</span><span class="preform-text__js-punctuation">;</span>
+                      <span class="preform-text__js-keyword">for</span><span class="preform-text__js-punctuation">(</span><span class="preform-text__js-keyword">let</span> i<span class="preform-text__js-number">=0</span><span class="preform-text__js-punctuation">;</span>i<span class="preform-text__js-number">&lt;</span>a.<span class="preform-text__js-number">length</span><span class="preform-text__js-punctuation">;</span>i<span class="preform-text__js-number">++</span><span class="preform-text__js-punctuation">) {</span>
+                        <span class="preform-text__js-keyword">if</span><span class="preform-text__js-punctuation">(</span>Array.<span class="preform-text__js-function">isArray</span><span class="preform-text__js-punctuation">(</span>a[i]<span class="preform-text__js-punctuation">)</span><span class="preform-text__js-number">==false</span><span class="preform-text__js-punctuation">) {</span>
+                            count <span class="preform-text__js-number">+= 1</span><span class="preform-text__js-punctuation">;}</span>
+                        <span class="preform-text__js-keyword">else</span> <span class="preform-text__js-punctuation">{</span>
+                            count <span class="preform-text__js-number">+= 1</span><span class="preform-text__js-punctuation">;</span>
+                            count <span class="preform-text__js-number">+=</span> <span class="preform-text__js-function">deepCount</span><span class="preform-text__js-punctuation">(</span>a[i]<span class="preform-text__js-punctuation">);}}</span>
+                        <span class="preform-text__js-keyword">return</span> count<span class="preform-text__js-punctuation">;}</span>
+                    </code>
+                  </pre>
+                </div>
               </section>
               <section id="projects" class="content__item item">
-                <h2 class="item__header">My projects</h2>
-                <p class="item__text">I`am just finished JS/FE Pre-School course. I`ve made these projects:</p>
+                <div class="item__row">
+                  <h2 class="item__header">My projects</h2>
+                  <p class="item__text">I`am just finished JS/FE Pre-School course. I`ve made these projects:</p>
+                  <div class="item__list">
+                    <div class="item__list-row">
+                      <div class="item__element element">
+                        <div class="element__row">
+                          <a class="element__link" href="#">
+                            <img class="element__image" src="" alt="CV project">
+                            <p class="element__text">CV project</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="item__element element">
+                        <div class="element__row">
+                          <a class="element__link" href="#">
+                            <img class="element__image" src="" alt="Portfolio">
+                            <p class="element__text">Portfolio</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="item__element element">
+                        <div class="element__row">
+                          <a class="element__link" href="#">
+                            <img class="element__image" src="" alt="Audio player">
+                            <p class="element__text">Audio player</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="item__element element">
+                        <div class="element__row">
+                          <a class="element__link" href="#">
+                            <img class="element__image" src="" alt="Image gallery">
+                            <p class="element__text">Image gallery</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="item__element element">
+                        <div class="element__row">
+                          <a class="element__link" href="#">
+                            <img class="element__image" src="" alt="Memory game">
+                            <p class="element__text">Memory game</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </section>
             </div>
           </main>
