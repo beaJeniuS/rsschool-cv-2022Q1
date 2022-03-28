@@ -86,6 +86,10 @@ h6 {
   font-weight: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   min-height: 100%;
   display: -webkit-box;
@@ -115,6 +119,12 @@ h6 {
   font-family: "Fredoka One", cursive;
   font-variant: small-caps;
   font-size: 30px;
+}
+
+.header__burger {
+  display: none;
+  z-index: 15;
+  cursor: pointer;
 }
 
 .container {
