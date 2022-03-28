@@ -215,6 +215,25 @@
                 <p class="item__text">Belarusian State University of Transport</p>
                 <p class="item__textsmall">- Faculty of Electrical Engineering</p>
               </section>
+              <section id="code" class="content__item item">
+                <h2 class="item__header">Code example</h2>
+                <p class="item__text">
+                  <a class="item__link" href="https://www.codewars.com/kata/596f72bbe7cd7296d1000029" target="_blank">Array Deep Count from CODEWARS: (&gt;&gt;)</a>
+                </p>
+                <pre class="item__text preform-text">
+                  <code class="preform-text__code">
+                    <span class="preform-text__js-keyword">function</span> <span class="preform-text__js-function">deepCount</span><span class="preform-text__js-punctuation">(</span>a<span class="preform-text__js-punctuation">){</span>
+                      <span class="preform-text__js-keyword">let</span> count <span class="preform-text__js-punctuation">=</span> <span class="preform-text__js-number">0</span><span class="preform-text__js-punctuation">;</span>
+                    <span class="preform-text__js-keyword">for</span><span class="preform-text__js-punctuation">(</span><span class="preform-text__js-keyword">let</span> i<span class="preform-text__js-number">=0</span><span class="preform-text__js-punctuation">;</span>i<span class="preform-text__js-number">&lt;</span>a.<span class="preform-text__js-number">length</span><span class="preform-text__js-punctuation">;</span>i<span class="preform-text__js-number">++</span><span class="preform-text__js-punctuation">) {</span>
+                      <span class="preform-text__js-keyword">if</span><span class="preform-text__js-punctuation">(</span>Array.<span class="preform-text__js-function">isArray</span><span class="preform-text__js-punctuation">(</span>a[i]<span class="preform-text__js-punctuation">)</span><span class="preform-text__js-number">==false</span><span class="preform-text__js-punctuation">) {</span>
+                          count <span class="preform-text__js-number">+= 1</span><span class="preform-text__js-punctuation">;}</span>
+                      <span class="preform-text__js-keyword">else</span> <span class="preform-text__js-punctuation">{</span>
+                          count <span class="preform-text__js-number">+= 1</span><span class="preform-text__js-punctuation">;</span>
+                          count <span class="preform-text__js-number">+=</span> <span class="preform-text__js-function">deepCount</span><span class="preform-text__js-punctuation">(</span>a[i]<span class="preform-text__js-punctuation">);}}</span>
+                      <span class="preform-text__js-keyword">return</span> count<span class="preform-text__js-punctuation">;}</span>
+                  </code>
+                </pre>
+              </section>
             </div>
           </main>
         </div>
