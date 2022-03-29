@@ -311,10 +311,13 @@ html {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .content {
-  min-height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   background-color: #ece79b;
 }
 
@@ -418,11 +421,45 @@ html {
   letter-spacing: 2px;
 }
 
+.item__mainsubheader {
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Fredoka One", cursive;
+  letter-spacing: 2px;
+}
+
 .item__text {
-  padding: 10px 0px;
+  padding: 20px;
   font-weight: bold;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.item__textsmall {
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+
+.item__list-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 -5px;
 }
 
 .preform-text__code {
@@ -443,4 +480,75 @@ html {
 
 .preform-text__js-number {
   color: #2f2fac;
+}
+
+.element {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+  padding: 0 5px;
+}
+
+.element__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.element__image {
+  width: 100%;
+}
+
+.element__text {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  text-align: center;
+}
+
+.element__link {
+  text-decoration: none;
+  color: #162335;
+}
+
+.footer {
+  background-color: #162335;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__column {
+  padding: 20px;
+}
+
+.footer__column p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.footer__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-size: 20px;
 }
